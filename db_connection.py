@@ -1,10 +1,6 @@
 import mysql.connector
 
-mydb = mysql.connector.connect(user='interview_user', password='mysql202098114345!#',
-host='35.195.247.8',
-database='interview')
-print(mydb)
-mycursor = mydb.cursor(buffered=True)
+#mysql connention is private
 
 #
 # mycursor.execute("CREATE TABLE orbital_data_haifa (name VARCHAR(255))")
